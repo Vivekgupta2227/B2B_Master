@@ -3,7 +3,7 @@ session_start();
 $timezone=date_default_timezone_set("Asia/Kolkata");
 $dbhost="localhost";
 $dbuser="root";
-$dbpassword="";
+$dbpassword=""; 
 $dbname="jetlead";
 $con=mysqli_connect($dbhost,$dbuser,$dbpassword,$dbname);
 if (mysqli_connect_errno())
